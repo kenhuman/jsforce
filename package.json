@@ -10,7 +10,7 @@
     "database.com"
   ],
   "homepage": "http://github.com/jsforce/jsforce",
-  "version": "1.9.2",
+  "version": "1.9.2-regions",
   "repository": {
     "type": "git",
     "url": "git://github.com/jsforce/jsforce.git"
@@ -106,5 +106,8 @@
     "./core": "./lib/browser/core",
     "./core.js": "./lib/browser/core",
     "request": "./lib/browser/request.js"
+  },
+  "publishConfig": {
+    "registry": "https://alm.rgbk.com/artifactory/api/npm/local-sfdc-npm/"
   }
 }
